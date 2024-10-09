@@ -1,11 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <title>Page Title</title>
+  <script>
+  function myFunction() {
+    document.getElementById("demo").innerHTML = "Hello JavaScript!";
+  }
+  </script>
 </head>
 <body>
-    <button onclick="document.location='default.asp'">HTML Tutorial</button>
+
+<h1>My Web Page</h1>
+<p id="demo">A Paragraph</p>
+<button type="button" onclick="myFunction()">Try it</button>
+
 </body>
 </html>
+
